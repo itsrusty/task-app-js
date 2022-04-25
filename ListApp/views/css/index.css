@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navigator{
+    display: flex;
+    justify-content: center;
+}
+.navigator .navigator__big-text{
+    position: relative;
+    top: 1rem;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 10px darkgray;
+    margin: 50px auto;
+    overflow: hidden;
+}
+p{
+    position: relative;
+    left: 1rem;
+    top: 90%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.container form{
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+.container form input[type="text"]{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #E8E8E8;
+}
+.container form input::placeholder{
+    text-align: center;
+}
+.container form input[type="submit"]{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: #FF4040;
+    color: #fff;
+    cursor: pointer;
+}
+.container form input[type="submit"]:hover{
+    background-color: #ff5d5d;
+}
+.container form input[type="submit"]:active{
+    transform: scale(.9);
+}
+.container .line{
+    width: 300px;
+    border: 1px solid #FF4040;
+    margin: 0px 48px;
+}
+.container .table-data{
+    width: 300px;
+    height: 200px;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+#delete{
+    width: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+}
